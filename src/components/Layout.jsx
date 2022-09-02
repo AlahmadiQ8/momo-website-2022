@@ -10,6 +10,12 @@ import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
 
+const dateFormatter = new Intl.DateTimeFormat('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+})
+
 
 function Header() {
   let [isScrolled, setIsScrolled] = useState(false)
@@ -95,7 +101,7 @@ function useTableOfContents(tableOfContents) {
   return currentSection
 }
 
-export function Layout({ children, title, tableOfContents }) {
+export function Layout({ children, title, tableOfContents, created }) {
   let router = useRouter()
   let isHomePage = router.pathname === '/'
   let currentSection = useTableOfContents(tableOfContents)
@@ -125,11 +131,19 @@ export function Layout({ children, title, tableOfContents }) {
         </div>
         <div className="min-w-0 max-w-2xl flex-auto px-4 py-4 lg:max-w-4xl xl:px-12">
           <article>
-            {!isHomePage && title && <header className="mb-9 space-y-1">
-              <h1 className="font-display text-3xl tracking-tight text-slate-900 dark:text-white">
-                {title}
-              </h1>
-            </header>}
+            <div className='my-4 md:my-9'>
+              {!isHomePage && created &&
+                <time
+                  dateTime={created}
+                  className="font-mono text-sm leading-7 text-slate-500"
+                >
+                  {dateFormatter.format(Date.parse(created))}
+                </time>}
+              {!isHomePage && title &&
+                <h1 className="font-display text-3xl tracking-tight text-slate-900 dark:text-white">
+                  {title}
+                </h1>}
+            </div>
             <Prose>{children}</Prose>
           </article>
         </div>

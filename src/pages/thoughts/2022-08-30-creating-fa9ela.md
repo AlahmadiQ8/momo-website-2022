@@ -1,9 +1,7 @@
-```
+---
 title: Why I'm building fa9ela.com
-created: 2022-08-30
-```
-
-# Why I'm building fa9ela.com
+created: "2022-08-30"
+---
 
 ## Personal Connection
 

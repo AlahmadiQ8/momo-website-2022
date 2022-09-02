@@ -6,10 +6,10 @@ description: Cache every single thing your app could ever do ahead of time, so y
 
 {% quick-links type="nav" %}
 
-{% quick-link title="About Me" href="/" /%}
+{% quick-link type="nav" title="About Me" href="/" /%}
 
-{% quick-link title="Personal Thoughts " href="/" /%}
+{% quick-link type="nav" title="Personal Thoughts " href="/" /%}
 
-{% quick-link title="Tech Stuff" href="/" /%}
+{% quick-link type="nav" title="Tech Stuff" href="/" /%}
 
 {% /quick-links %}
