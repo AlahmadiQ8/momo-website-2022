@@ -9,6 +9,7 @@ import { MobileNavigation } from '@/components/MobileNavigation'
 import { Prose } from '@/components/Prose'
 import { Search } from '@/components/Search'
 import { ThemeSelector } from '@/components/ThemeSelector'
+import {NavHeader } from '@/components/NavHeader'
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
   year: 'numeric',
@@ -49,7 +50,7 @@ function Header() {
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
-        <Search />
+        <NavHeader />
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
