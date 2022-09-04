@@ -3,26 +3,33 @@ title: Why I'm building fa9ela.com
 created: "2022-08-30"
 ---
 
+I'm building another side project that I hope kicks off. This time I'm making an Arabic-first content publishing platform. Think "[Medium.com][1]", but for Arabic writers only.
+
+In this essay, I'll explain why I am building this.
+
 ## Personal Connection
 
-I've loved writing since I was a kid. But it was one of those activities I rarely worked on improving beyond college. I have tried blogging but never kept the momentum of consistently writing to improve. I lost count of how many times I recreated my website to start blogging again.
+Ever since I was a kid, I've loved to write. But, after college, I began writing less and less, causing my skills to stagnate.
 
-The idea behind recreating my website is to be more motivated to write content for it once I get a fancy new website design. It worked, but the momentum quickly lost stamina after a few months.
+I have tried blogging but always lose the momentum necessary to publish regularly, and I can't even remember how many times I recreated my website to start blogging again.
 
-This time I won't recreate my website again but will build an open platform for anyone to publish their writing.
+Recreating my website with a new, shiny design was supposed to motivate me to write content more consistently.
+
+It worked, but after a few months, my momentum faltered, and I stopped writing. So this time, I'm being bold and making an open platform for anyone to publish their writing. I'll be my first user and test it myself.
 
 ## A Missing Gap For The Arabic Language
 
-Why don't we have a platform like [medium.com][1], but for the Arabic language, where anyone can instantly write and share with work?
+Why don't we have a platform like [Medium.com][2], but for the Arabic language, where anyone can instantly write and share their work?
 
-I've always loved Medium's gorgeous reading experience and exceptional writing experience. But I think it truly shines in how easily anyone can instantly start writing without having to be tech-savvy.
+I've always loved Medium's gorgeous reading experience and intuitive writing interface. But Medium truly shines in how easily anyone can write and publish their work without needing to be tech-savvy.
 
-While many platforms support the Arabic language, such as Blogger, WordPress, and Wix, they require some English basics or basic web knowledge. Someone who doesn't speak English will face many barriers to publishing their work.
+Blogger, WordPress, and Wix all support the Arabic language. But, these platforms require a basic familiarity with English. Arabic writers using these platforms may find publishing their work quite challenging.
 
-I dream that Fa9ela will further enrich the digital Arabic content by eliminating barriers to publishing to anyone, regardless of their English or tech literacy.
+I dream that Fa9ela will further enrich the world of digital Arabic content by eliminating the publishing barriers many Arabic writers face.
 
 ## Final thoughts
 
-I don't know if fa9ela.com will grow beyond being a hobby or toy project. But I am still somehow excited for this journey.
+I'm not sure if fa9ela.com will grow beyond being a hobby/toy project. No matter what, though, I am excited to begin this journey.
 
 [1]: http://medium.com
+[2]: http://medium.com

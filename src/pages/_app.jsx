@@ -51,7 +51,7 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
 export default function App({ Component, pageProps }) {
   let title = pageProps.markdoc?.frontmatter.title || pageProps.title
 
-  let pageTitle = pageProps.markdoc?.frontmatter.pageTitle || pageProps.title
+  let pageTitle = pageProps.markdoc?.frontmatter.pageTitle || title
 
   let description = pageProps.markdoc?.frontmatter.description
 

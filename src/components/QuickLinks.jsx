@@ -25,7 +25,7 @@ export function QuickLink({ title, description, href, type, time}) {
             <h2 className={clsx("font-display text-slate-900 dark:text-white text-sm", type === 'nav' && 'text-xs text-center md:text-sm')}>
               {title}
             </h2>
-            {time && <time className='text-slate-500 block text-right text text-xs'>
+            {time && <time className='text-slate-500 block text-right text text-sm'>
               {time}
             </time>}
           </div>

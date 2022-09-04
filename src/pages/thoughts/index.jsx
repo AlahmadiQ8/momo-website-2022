@@ -29,7 +29,6 @@ export function getStaticProps () {
 
   pagesData = pagesData.map(getPostData)
 
-  console.log(pagesData);
   return {
     props: {
       title: 'Thoughts',

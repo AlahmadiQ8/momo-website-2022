@@ -12,8 +12,8 @@ export function NavHeader({ currentPage }) {
         <ul className="flex flex-col mt-4 font-medium md:flex-row lg:space-x-8 lg:mt-0">
           {navigation.map(nav => (
             <li key={nav.href}>
-              <Link href={nav.href}>
-                <a className="block py-2 pr-4 pl-3 text-slate-900 dark:text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0" aria-current="page">{nav.title}</a>
+              <Link href={nav.href} className="block py-2 pr-4 pl-3 text-slate-900 dark:text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0" aria-current="page">
+                {nav.title}
               </Link>
             </li>
           ))}
